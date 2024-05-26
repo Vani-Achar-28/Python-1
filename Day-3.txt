@@ -1,0 +1,26 @@
+1)USING INPUT() FUNCTION TAKE ONE NUMBER FROM THE USER AND USING TERNARY OPERATORS
+
+ num  = int(input ("Enter a number: ") )                                        #Enter a number using input function
+ print ( "your number is: ", num)                                               #Print the number
+ result = "The number is even" if num%2==0 else "The number is odd"             #Using ternary operator find whether the num is even or odd
+ print (result)                                                                 #Print the result
+
+ output:
+ Enter a number: 28
+ your number is: 28
+ The number is even
+-------------------------------------------------------------------------------------------------------------------------------------------
+2)USING INPUT FUNCTION TAKE TWO NUMBERS AND SWAP THE NUMBERS 
+
+ num1 = input("Enter first number:")                                 #Enter 2 numbers using input function 
+ num2 = input("Enter second number:")
+ temp = num1                                                         #Swap two numbers
+ num1 = num2
+ print (num1)                                                        #Enter two numbers after swapping
+ print (num2)
+
+ output:
+ Enter first number:28
+ Enter second number:82
+ 82
+ 28
